@@ -1,0 +1,33 @@
+.display-4{
+    background-color: slategray;
+}
+
+.jumbotron-fluid{
+    background-color: slategray;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Major Mono Display', monospace;
+}
+
+.col-md-8 {
+    float: left;
+
+}
+
+.col-md-4{
+    float:left;
+}
+
+body{
+    background-color: lightgrey;
+}
+p {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}

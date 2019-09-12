@@ -13,6 +13,7 @@
     <!-- Firebase References -->
     <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
+    
 </head>
 
 <body>
@@ -20,6 +21,7 @@
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <h1 class="display4">Train<i class="fas fa-train">Scheduler</i></h1>
+            <!--here we will display the time-->
             <p id="currentTime"></p>
         </div>
     </div>
@@ -45,31 +47,31 @@
     <div class="col-md-4">
         <form>
             <div class="form-group">
-                <label for="TrainName">Train Name</label>
-                <input type="TrainName" class="form-control" id="TrainName" aria-describedby="emailHelp">
+                <label for="trainName">Train Name</label>
+                <input type="trainName" class="form-control" id="trainName" aria-describedby="emailHelp">
             </div>
             <div class="form-group">
-                <label for="Destination">Destination</label>
-                <input type="destination" class="form-control" id="Destination">
+                <label for="destination">Destination</label>
+                <input type="destination" class="form-control" id="destination">
             </div>
             <div class="form-group">
-                <label for="TrainTime">First Train Time (HH:mm - military time)</label>
-                <input type="TrainTime" class="form-control" id="TrainTime" aria-describedby="TrainTime">
+                <label for="trainTime">First Train Time (HH:mm - military time)</label>
+                <input type="trainTime" class="form-control" id="trainTime" aria-describedby="trainTime">
             </div>
             <div class="form-group">
-                <label for="Frequency">Frequency (min)</label>
-                <input type="Frequency" class="form-control" id="Frequency">
+                <label for="frequency">Frequency (min)</label>
+                <input type="frequency" class="form-control" id="frequency">
             </div>
             <button type="submit" id="submitInfo" class="btn btn-primary">Submit</button>
             <button type="submit" id="clearInfo" class="btn btn-primary">Clear</button>
         </form>
 
     </div>
+<!--JQuery link-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!--Moment-->
 <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
 <script type="text/javascript" src="assets/javascript/train.js"></script>
 </body>
-
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery.js"></script>
 
 </html>
